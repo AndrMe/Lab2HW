@@ -4,12 +4,12 @@
 
 int main()
 {
-    // getiing user name
+    // Ввод имени пользователя
     std::string username;
     std::cout << "input your name:";
     getline(std::cin, username);
 
-    // printing result
+    // Вывод результатов
     std::cout << "Hello world from " << username << std::endl;
     return 0;
 }
